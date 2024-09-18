@@ -27,7 +27,7 @@
   
   .content {
     display: flex;
-    height: 88%;
+    height: 100%;
     align-items: center;
     justify-content: space-between;
   }
@@ -92,7 +92,7 @@
     transition: transform 0.5s;
   }
   
-    .card1 {
+  .card1 {
     background-image: url(images/snake.gif);
   }
   .card2 {
@@ -122,6 +122,8 @@
     font-size: 8px;
   }
   
+  /* styling the modal */
+
   .form-container {
     height: 100vh;
     padding: 20px;
