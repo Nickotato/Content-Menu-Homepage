@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  body {
+    background: black;
+  }
+  
+  .navbar {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .main {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/11/Earth-From-Space-HD-Backgrounds.jpg);
+    /* background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://picsum.photos/seed/picsum/1920/1080); */
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+  }
+  
+  .content {
+    display: flex;
+    height: 88%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .part {
+    flex-basis: 50%;
+  }
+  
+  .part > div {
+    display: flex;
+    justify-content: end;
+  }
+  
+  h1 {
+    color: #fff;
+    font-size: 6.25rem;
+    white-space: nowrap;
+    text-wrap: none;
+    display: flex;
+  }
+  
+  p {
+    color: #fff;
+    font-size: 0.68rem;
+    line-height: 0.93rem;
+  }
+  
+  .exploreButton {
+    width: 11.25rem;
+    color: #000;
+    font-size: 0.75rem;
+    padding: 0.75rem 0;
+    background: #fff;
+    border: 0;
+    border-radius: 1.25rem;
+    outline: none;
+    margin-top: 1.87rem;
+    transition: transform 0.5s;
+  }
+  
+  .exploreButton:hover {
+    box-shadow: 0px 4px 5px black;
+    transform: translateY(-0.31rem);
+  }
+  
+  .exploreButton:focus {
+    box-shadow: 0px 4px 5px black;
+    transform: translateY(-0.31rem);
+  }
+  
+  .card {
+    width: 12.5rem;
+    height: 14.375rem;
+    display: inline-block;
+    border-radius: 0.625rem;
+    padding: 0.9rem 1.56rem;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 0.625rem 0.9rem;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+  }
+  
+  .card1 {
+    background-image: url(https://raw.githubusercontent.com/PotatoNick26/Jankey-Snake/main/images/previewImage.gif);
+  }
+  .card2 {
+    background-image: url(https://content-menu.netlify.app/Images/blackjack.jpg);
+  }
+  .card3 {
+    background-image: url(https://new-potato-clicker.netlify.app/images/potato.png);
+  }
+  .card4 {
+    background-image: url(https://content-menu.netlify.app/Images/rpc.png);
+  }
+  
+  .card:hover {
+    transform: translateY(-0.625rem);
+  }
+  
+  .card:focus {
+    transform: translateY(-0.625rem);
+  }
+  
+  h5 {
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+  }
+  .card p {
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+  }
+  
+  .form-container {
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form {
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.75);
+  }
+  
+  .form--input {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .form--submit {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #639;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form--marketing {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .form--marketing > input {
+    margin-right: 10px;
+  }
+  
