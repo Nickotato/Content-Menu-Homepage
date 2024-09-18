@@ -92,17 +92,17 @@
     transition: transform 0.5s;
   }
   
-  .card1 {
-    background-image: url(https://raw.githubusercontent.com/PotatoNick26/Jankey-Snake/main/images/previewImage.gif);
+    .card1 {
+    background-image: url(images/snake.gif);
   }
   .card2 {
-    background-image: url(https://content-menu.netlify.app/Images/blackjack.jpg);
+    background-image: url(images/blackjack.png);
   }
   .card3 {
-    background-image: url(https://new-potato-clicker.netlify.app/images/potato.png);
+    background-image: url(images/clicker.png);
   }
   .card4 {
-    background-image: url(https://content-menu.netlify.app/Images/rpc.png);
+    background-image: url(images/rps.png);
   }
   
   .card:hover {
